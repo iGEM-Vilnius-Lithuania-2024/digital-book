@@ -294,6 +294,44 @@ button:hover {
     }
 }
 
+@media (max-height: 500px) {
+    .button-group {
+        position: absolute;
+        bottom: 27.7vh;
+        margin: auto;
+        transform: translateX(-0.75vh);
+        width: 103.7vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .round-button {
+        width: 14.7vh;
+        height: 14.7vh;
+        background-color: black;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .light-group {
+        position: absolute;
+        top: 13.2vh;
+        margin: auto;
+        transform: translateX(43.2vh);
+        width: 32.5vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .light {
+        width: 12.5vh;
+        height: 12.5vh;
+        background-size: cover;
+        filter: brightness(40%);
+    }
+}
+
 .round-button:hover {
     background-color: #333;
 }
