@@ -105,6 +105,10 @@ body {
     background-image: url('assets/17.png');
 }
 
+#slide18 {
+    background-image: url('assets/18.png');
+}
+
 button {
     padding: 10px 20px;
     font-size: 1rem;

@@ -1,6 +1,6 @@
 const slidesContainer = document.getElementById('slides-container');
-const totalSlides = 15;
-const answers = [-1, -1, 1, -1, 2, -1, 4, -1, 3, -1, 3, -1, 2, -1, 1, -1, 4]
+const totalSlides = 18;
+const answers = [-1, -1, 1, -1, 2, -1, 4, -1, 3, -1, 3, -1, 2, -1, 1, -1, 4, -1]
 const redLightImagePath = 'assets/red_light.png';
 const greenLightImagePath = 'assets/green_light.png';
 
